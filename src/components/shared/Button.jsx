@@ -1,15 +1,13 @@
+import React from 'react';
 
-const Error = ({children}) => {
+function Button() {
+  function handleClick() {
+    alert('Haz clic en el botón');
+  }
+
   return (
-    
-        <div className="bg-red-800 text-white 
-        p-3 uppercase text-center font-bold 
-        rounded-md">
-          {children}
-        </div>
-        
-        )
-  
+    <button onClick={handleClick}>Haz clic aquí</button>
+  );
 }
 
-export default Error
+export default Button;
