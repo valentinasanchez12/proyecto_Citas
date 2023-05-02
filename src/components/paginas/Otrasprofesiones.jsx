@@ -11,7 +11,7 @@ export const Otrasprofesiones = () => {
                 <p className="text-xl uppercase">C.E.A El Conductor Seguro</p>
                 <span className="text-gray-400">Centro de enseñanza automobilistica el conductor seguro</span>
                 <p className="text-gray-600">estamos ubicados Cra. 2 #22-50</p>
-                <Link to='/Barraconf'> 
+                <Link to='/Agendar'> 
                 <button className="flex items-center gap-4 text-gray-300 bg-[#ec7c6a] py-2 px-4 rounded-lg grid-cols-4">
                 AGENDAR:
                 </button>  
@@ -23,7 +23,7 @@ export const Otrasprofesiones = () => {
                 <p className="text-xl uppercase">COOMEVA COOPERATIVA</p>
                 <span className="text-gray-400">oportunidad para crecer</span>
                 <p className="text-gray-600">estamos ubicados Cl. 13 #5- 44</p>
-                <Link to='/Barraconf'>
+                <Link to='/Agendar'>
                 <button className="flex items-center gap-4 text-gray-300 bg-[#ec7c6a] py-2 px-4 rounded-lg grid-cols-4">
                 AGENDAR:
                 </button>     

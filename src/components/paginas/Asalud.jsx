@@ -12,7 +12,7 @@ export const Asalud = () => {
                   <p className="text-xl uppercase">previred colombia</p>
                   <span className="text-gray-400">Especialista en la salud</span>
                   <p className="text-gray-600">estamos ubicados Cll 18A No 5A - 37</p>
-                  <Link to='/Barraconf'>
+                  <Link to='/Agendar'>
                   <button className="flex items-center gap-4 text-gray-300 bg-[#ec7c6a] py-2 px-4 rounded-lg grid-cols-4">
                   AGENDAR: 
                   </button>     
@@ -24,7 +24,7 @@ export const Asalud = () => {
                   <p className="text-xl uppercase">sonrie </p>
                   <span className="text-gray-400">Especialista en higiene oral</span>
                   <p className="text-gray-600">estamos ubicados Cl. 7 #6-7 </p>
-                  <Link to='/Barraconf'>
+                  <Link to='/Agendar'>
                   <button className="flex items-center gap-4 text-gray-300 bg-[#ec7c6a] py-2 px-4 rounded-lg grid-cols-4">
                   AGENDAR:
                   </button>     
@@ -36,7 +36,7 @@ export const Asalud = () => {
                   <p className="text-xl uppercase">salud vital ips sas </p>
                   <span className="text-gray-400">certificados en salud ocupacional</span>
                   <p className="text-gray-600">estamos ubicados Cra. 7a #17 A 25</p>
-                  <Link to='/Barraconf'>
+                  <Link to='/Agendar'>
                   <button className="flex items-center gap-4 text-gray-300 bg-[#ec7c6a] py-2 px-4 rounded-lg grid-cols-4">
                   AGENDAR:
                   </button>
@@ -48,7 +48,7 @@ export const Asalud = () => {
                   <p className="text-xl uppercase">optica roa </p>
                   <span className="text-gray-400">Especialista en tus ojos</span>
                   <p className="text-gray-600">estamos ubicados Carrera 7 # 7-46</p>
-                  <Link to='/Barraconf'>
+                  <Link to='/Agendar'>
                   <button className="flex items-center gap-4 text-gray-300 bg-[#ec7c6a] py-2 px-4 rounded-lg grid-cols-4">
                   AGENDAR:
                   </button>     

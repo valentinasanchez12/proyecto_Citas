@@ -8,6 +8,9 @@ import { Belleza } from "./components/paginas/Belleza";
 import { Asalud } from "./components/paginas/Asalud";
 import { Veterinario } from './components/paginas/Veterinario'
 import { Otrasprofesiones } from './components/paginas/Otrasprofesiones'
+import Formulario from "./components/shared/Formulario";
+import Agendar from "./components/shared/Agendar";
+
 
 
 
@@ -81,11 +84,15 @@ function App() {
           </Router>
 
           <Router>
-      <Routes>
-        <Route path='/Barraconf' component={Barraconf} />
-        
-      </Routes>
-    </Router>
+           <Agendar/>
+             <Routes>
+                <Route path='/Formulario' component={Formulario} />
+             </Routes>
+           </Router>
+
+           
+
+          
 
 
          
