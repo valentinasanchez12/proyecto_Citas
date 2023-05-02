@@ -27,7 +27,7 @@ function ListadoPaciente({pacientes, setPaciente, eliminarPaciente}) {
     <>
       <h2 className="text-gray-200 text-3xl text-center">No hay citas pendientes!</h2>
       <p className="text-gray-200 text-xl mt-5 mb-10 text-center">
-        Comienza agregando y aparecerán en este espacio!
+        Comienza agregando y aparecerán en este espacio agrega!
       </p>
     </>
     }
